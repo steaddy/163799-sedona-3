@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Геннадий Кириченко](https://up.htmlacademy.ru/htmlcss-individual/3/user/163799).
-* Наставник: `Неизвестно`.
+- Студент: [Геннадий Кириченко](https://up.htmlacademy.ru/htmlcss-individual/3/user/163799).
+- Наставник: [Имя наставника](https://htmlacademy.ru)
 
 ---
 
