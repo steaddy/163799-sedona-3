@@ -2,7 +2,7 @@
 
 - Студент: [Геннадий Кириченко](https://up.htmlacademy.ru/htmlcss-individual/3/user/163799).
 - Наставник: [Дина Шарипова](https://htmlacademy.ru/profile/id1418957).
-- Сайт: https://steaddy.github.io/163799-sedona-3/
+- Сайт: [Проект Седона](https://steaddy.github.io/163799-sedona-3/).
 
 ---
 
