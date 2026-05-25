@@ -1,0 +1,9 @@
+.hero {
+  width: 1200px;
+  height: 485px;
+  background-image:
+    url(../images/svg/index-background-vector.svg),
+    url(../images/backgrounds/index-background.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
