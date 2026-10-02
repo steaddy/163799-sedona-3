@@ -1,0 +1,272 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  background-color: #f2f2f2;
+}
+
+h1, h2, h3, h4 {
+  color: #000000;
+}
+
+.hero {
+  width: 1200px;
+  height: 485px;
+  background-color: #b0c6db;
+  background-size: cover;
+  background-image:
+    url(../images/svg/index-background-vector.svg),
+    url(../images/backgrounds/index-background.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.color-second,
+.color-second a {
+  color: #ffffff;
+}
+.button {
+  background-color: #756157;
+  border: none;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.advantages-list-item-wide {
+  background-color: #82b3d3;
+}
+
+.advantages-list-item:nth-child(3) {
+  background-color: #83b3d333;
+}
+
+.services-list-item:nth-child(2n + 1) {
+  background-color: #83b3d31f;
+}
+
+.navigation-list {
+  padding: 0;
+}
+
+.navigation-list-item {
+  list-style: none;
+}
+
+.navigation-list-item a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  text-decoration-line: none;
+}
+
+.button a {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.find-button,
+.subscription-button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.subscription-button {
+  background-color: #82b3d3;
+}
+
+.hotel-filter-apply {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #82b3d3;
+}
+
+.hotel-filter-reset {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  background: none;
+}
+
+.hotels-card-more-info {
+  text-decoration: none;
+}
+
+.main-description-header h2,
+.subscription-header h2,
+.hotels-available-header h2,
+.subscription-header h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.main-description-header h3,
+.service-header h3,
+.hotels-card-header h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.hotels-filter h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #ffffff;
+}
+
+.hotels-filter {
+  background-image: url("../images/backgrounds/hotels-filter-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.breadcrumbs {
+  list-style: none;
+  padding-left: 0;
+}
+
+.breadcrumbs-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.breadcrumbs a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.group-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.hotels-filter-group label {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.hotels-available-header {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.hotels-available-sort {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.view-option-list, .hotels-card-list {
+  list-style: none;
+  padding: 0;
+}
+
+.hotels-card-header {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.hotels-card-type, .hotels-card-price {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotels-card-rating {
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  text-transform: uppercase;
+  background-color: #F2F2F2;
+}
+
+.add-to-favorites {
+ background-color: #82B3D3;
+}
+
+.in-favorites {
+background-color: #7DB54F;
+}
+
+.hotels-card-favorite,
+.hotels-card-more-info {
+font-size: 16px;
+line-height: 20px;
+font-weight: 700;
+}
+
+.pagination {
+  list-style: none;
+}
+
+.pagination-link {
+  text-decoration: none;
+  color: #ffffff;
+ background-color: #82B3D3;
+}
+
+.pagination-link-current {
+  background-color: #F2F2F2;
+  color: #000000;
+}
+
+.pagination-link-ellipsis {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.subscription-button {
+  line-height: 36px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.subscription-form input {
+  background-color: #F2F2F2;
+  border: none;
+}
+
+.contact-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #000000;
+}
